@@ -1,8 +1,7 @@
-import{Routes, Route} from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 
-import NavbarComponent from "./components/NavbarComponent";
+// import NavbarComponent from "./components/NavbarComponent";
 // import FooterComponent from "./components/FooterComponent";
-
 
 import Index from "./pages/Index";
 import Schedule from "./pages/Schedule";
@@ -11,10 +10,10 @@ import WasBank from "./pages/WasBank";
 import Login from "./pages/Login";
 import Contact from "./pages/Contact";
 
-function App() {
+const App = () => {
   return ( 
   <div>
-    <NavbarComponent />
+    {/* <NavbarComponent /> */}
 
     <Routes>
       <Route path="/" Component={Index}/>
