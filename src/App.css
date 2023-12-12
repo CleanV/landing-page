@@ -1,3 +1,36 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.hero-bg {
+    /* @apply bg-[url('/src/assets/img/acara/kali1.jpg')] bg-no-repeat bg-cover; */
+    @apply bg-[linear-gradient(to_left,rgba(68,204,38,0.9),rgba(255,255,255,0.9)),url('/src/assets/img/acara/kali1.jpg')] bg-no-repeat bg-cover;
+}
+
+.btn-hero-primary {
+    @apply px-10 py-4 bg-[#25CC22] mr-6 text-white rounded-full drop-shadow-xl text-lg;
+}
+
+.btn-hero-secondary {
+    @apply px-10 py-4 border-2 border-white text-white rounded-full drop-shadow-xl text-lg;
+}
+
+.btn-hero-primary:hover, .btn-hero-secondary:hover {
+    @apply shadow-xl;
+}
+
+.btn-hero-secondary:hover {
+    @apply bg-white text-black;
+}
+
+#searchbar-text {
+	appearance: none;
+	border: none;
+	outline: none;
+	border-bottom: .2em solid white;
+	background: transparent;
+	border-radius: .2em .2em 0 0;
+	padding: .4em;
+	color: white;
+    width: 70%;
+}
