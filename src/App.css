@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+body {
+	font-family: 'Poppins' !important w
+}
+
 .hero-bg {
     /* @apply bg-[url('/src/assets/img/acara/kali1.jpg')] bg-no-repeat bg-cover; */
     @apply bg-[linear-gradient(to_left,rgba(68,204,38,0.9),rgba(255,255,255,0.9)),url('/src/assets/img/acara/kali1.jpg')] bg-no-repeat bg-cover;
@@ -15,7 +19,11 @@
     @apply px-10 py-4 border-2 border-white text-white rounded-full drop-shadow-xl text-lg;
 }
 
-.btn-hero-primary:hover, .btn-hero-secondary:hover {
+.btn-normal {
+    @apply px-10 py-4 border-2 border-black text-[#047F26] rounded-full drop-shadow-xl text-lg;
+}
+
+.btn-hero-primary:hover, .btn-hero-secondary:hover, .btn-normal:hover {
     @apply shadow-xl;
 }
 
@@ -33,4 +41,8 @@
 	padding: .4em;
 	color: white;
     width: 70%;
+}
+
+.combo-events {
+	@apply bg-[#F2F4FF] rounded-full py-4 px-9 text-[#1D275F] ml-6;
 }
