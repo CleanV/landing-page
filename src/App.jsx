@@ -1,7 +1,7 @@
 import { Routes, Route } from "react-router-dom";
 
-// import NavbarComponent from "./components/NavbarComponent";
-// import FooterComponent from "./components/FooterComponent";
+import NavbarComponent from "./components/NavbarComponent";
+import FooterComponent from "./components/FooterComponent";
 
 import Index from "./pages/Index";
 import Schedule from "./pages/Schedule";
@@ -13,7 +13,7 @@ import Contact from "./pages/Contact";
 const App = () => {
   return ( 
   <div>
-    {/* <NavbarComponent /> */}
+    <NavbarComponent />
 
     <Routes>
       <Route path="/" Component={Index}/>
@@ -24,7 +24,7 @@ const App = () => {
       <Route path="/contact" Component={Contact}/>
     </Routes>
 
-    {/* <FooterComponent /> */}
+    <FooterComponent />
   </div>
   );
 }
