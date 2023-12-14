@@ -12,19 +12,15 @@ body {
 }
 
 .btn-hero-primary {
-    @apply px-10 py-4 bg-[#25CC22] text-white rounded-full drop-shadow-xl lg:text-lg text-sm;
+    @apply px-10 py-4 bg-[#25CC22] text-white rounded-full drop-shadow-xl lg:text-lg text-sm hover:shadow-xl transition duration-200;
 }
 
 .btn-hero-secondary {
-    @apply px-10 py-4 border-2 border-white text-white rounded-full drop-shadow-xl lg:text-lg text-sm;
+    @apply px-10 py-4 border-2 border-white text-white rounded-full drop-shadow-xl lg:text-lg text-sm hover:shadow-xl hover:bg-white hover:text-black transition duration-200;
 }
 
 .btn-normal {
-    @apply px-10 py-4 border-2 border-black text-[#047F26] rounded-full drop-shadow-xl text-lg;
-}
-
-.btn-hero-primary:hover, .btn-hero-secondary:hover, .btn-normal:hover {
-    @apply shadow-xl;
+    @apply px-10 py-4 border-2 border-black text-[#047F26] rounded-full drop-shadow-xl text-lg hover:shadow-xl transition duration-200;
 }
 
 .btn-hero-secondary:hover {
