@@ -12,11 +12,11 @@ body {
 }
 
 .btn-hero-primary {
-    @apply px-10 py-4 bg-[#25CC22] mr-6 text-white rounded-full drop-shadow-xl text-lg;
+    @apply px-10 py-4 bg-[#25CC22] text-white rounded-full drop-shadow-xl lg:text-lg text-sm;
 }
 
 .btn-hero-secondary {
-    @apply px-10 py-4 border-2 border-white text-white rounded-full drop-shadow-xl text-lg;
+    @apply px-10 py-4 border-2 border-white text-white rounded-full drop-shadow-xl lg:text-lg text-sm;
 }
 
 .btn-normal {
