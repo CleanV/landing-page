@@ -8,7 +8,6 @@ const NavbarComponent = () => {
   useEffect(() => {
     listener = document.addEventListener("scroll", () => {
       var scrolled = document.scrollingElement.scrollTop
-      console.log(scrolled)
       scrolled >= 120 ? setScrollState(true) : setScrollState(false)
     })
     return () => {
