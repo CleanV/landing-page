@@ -58,7 +58,7 @@ const NavbarComponent = () => {
             </li>
             <li><a className="text-sm text-gray-400 hover:text-gray-500" href="#">Contact</a></li>
           </ul>
-          <a className={`hidden lg:inline-block lg:ml-auto lg:mr-3 py-2 px-6 bg-transparent hover:bg-gray-100 text-sm font-bold rounded-xl transition duration-200 border-2 ${scrollState ? 'text-gray-900 border-gray-900' : 'text-white border-white'}`} href="#">Login</a>
+          <a href="https://cleanv.netlify.app/" className={`hidden lg:inline-block lg:ml-auto lg:mr-3 py-2 px-6 bg-transparent hover:bg-gray-100 text-sm font-bold rounded-xl transition duration-200 border-2 ${scrollState ? 'text-gray-900 border-gray-900' : 'text-white border-white'}`}>Login</a>
         </nav>
       </div>
 
